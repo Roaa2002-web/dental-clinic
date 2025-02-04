@@ -10,7 +10,7 @@ const ContactSection = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-b from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-12">
+    <section className="bg-gradient-to-b from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-12 overflow-hidden">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-teal-500 dark:text-teal-300 font-poppins mb-4">التواصل معنا</h2>
         <h1 className="text-4xl font-bold text-indigo-800 dark:text-indigo-300 font-poppins">معلومات التواصل</h1>

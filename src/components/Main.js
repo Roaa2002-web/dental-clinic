@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center">
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       {/* صورة الخلفية */}
       <div className="absolute inset-0 -z-20">
         <Image

@@ -17,7 +17,7 @@ const DentalSection = () => {
   return (
     <section
        id="about"
-      className="bg-gradient-to-b from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-12"
+      className="bg-gradient-to-b from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-12 overflow-hidden"
       data-aos="fade-up" // إضافة الأنيميشن للقسم بأكمله
     >
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-8">

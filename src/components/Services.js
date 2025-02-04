@@ -37,7 +37,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section id="services" className="bg-gradient-to-b from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-12">
+    <section id="services" className="bg-gradient-to-b from-blue-100 to-blue-50 dark:from-gray-800 dark:to-gray-900 py-12 overflow-hidden">
     <div className="text-center mb-8">
       <h2 className="text-2xl sm:text-base font-bold text-teal-500 dark:text-teal-300 font-poppins">
         ماذا نقدم

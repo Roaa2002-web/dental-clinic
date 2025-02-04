@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-100 dark:bg-gray-800 py-8 text-gray-800 dark:text-gray-300">
+    <footer className="bg-blue-100 dark:bg-gray-800 py-8 text-gray-800 dark:text-gray-300 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* القسم الأول: العنوان ورقم الهاتف */}
